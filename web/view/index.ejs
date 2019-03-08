@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="full-screen" content="yes">
+    <meta name="imagemode" content="force">
+    <meta name="browsermode" content="application">
+    <meta name="nightmode" content="disable">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title><%= title %></title>
+    <script type="text/javascript">
+        window.__PAGE_DATA__ = '<%- data %>';
+    </script>
+</head>
+<body>
+    <div id="root"><%- root %></div>
+    <script src="/main.js?v=100"></script>
+</body>
+</html>
